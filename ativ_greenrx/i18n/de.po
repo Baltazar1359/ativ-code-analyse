@@ -1,0 +1,245 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ativ_greenrx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-04 09:30+0000\n"
+"PO-Revision-Date: 2026-11-04 09:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(name)s: currency is %(currency)s, but the e-Rechnung format requires %(required)s"
+msgstr "%(name)s: Währung ist %(currency)s, das E-Rechnungs-Format verlangt aber %(required)s"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(names)s already sent as an e-Rechnung; its data can no longer be changed."
+msgstr "%(names)s wurde bereits als E-Rechnung versendet; die Daten können nicht mehr geändert werden."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(partner)s: missing %(field)s"
+msgstr "%(partner)s: %(field)s fehlt"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(partner)s: missing bank account"
+msgstr "%(partner)s: Bankkonto fehlt"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(partner)s: missing bank account number (IBAN)"
+msgstr "%(partner)s: Kontonummer (IBAN) fehlt"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(partner)s: missing bank identifier code (BIC)"
+msgstr "%(partner)s: Bankleitzahl (BIC) fehlt"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "%(partner)s: missing country"
+msgstr "%(partner)s: Land fehlt"
+
+#. module: ativ_greenrx
+#: model_terms:ir.ui.view,arch_db:ativ_greenrx.res_config_settings_view_form
+msgid "ATIV"
+msgstr "ATIV"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,help:ativ_greenrx.field_res_config_settings__ativ_erechnung_enabled
+#: model_terms:ir.ui.view,arch_db:ativ_greenrx.res_config_settings_view_form
+msgid "Attach a ZUGFeRD factur-x.xml e-invoice to the generated purchase documents."
+msgstr "Den erzeugten Gutschriften eine ZUGFeRD-E-Rechnung (factur-x.xml) beifügen."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "Cannot confirm %(name)s:\n%(errors)s"
+msgstr "%(name)s kann nicht bestätigt werden:\n%(errors)s"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/ir_actions_report.py:0
+msgid "Cannot serve the e-Rechnung of %(name)s: the underlying data changed after it was already sent, and a sent e-Rechnung cannot be regenerated."
+msgstr "Die E-Rechnung zu %(name)s kann nicht ausgegeben werden: Die zugrunde liegenden Daten wurden nach dem Versand geändert, und eine versendete E-Rechnung kann nicht neu erzeugt werden."
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,help:ativ_greenrx.field_res_config_settings__ativ_purchase_no_autosave
+#: model_terms:ir.ui.view,arch_db:ativ_greenrx.res_config_settings_view_form
+msgid "Disable autosave on the purchase order form; users must click Save."
+msgstr "Automatisches Speichern im Gutschrift-Formular abschalten; Änderungen werden erst mit Klick auf Speichern übernommen."
+
+#. module: ativ_greenrx
+#. odoo-javascript
+#: code:addons/ativ_greenrx/static/src/purchase_order_no_autosave.js:0
+msgid "Discard"
+msgstr "Verwerfen"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_res_config_settings__ativ_erechnung_enabled
+#: model_terms:ir.ui.view,arch_db:ativ_greenrx.res_config_settings_view_form
+msgid "E-Rechnung (ZUGFeRD)"
+msgstr "E-Rechnung (ZUGFeRD)"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "E-Rechnung (ZUGFeRD) generated."
+msgstr "E-Rechnung (ZUGFeRD) erzeugt."
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_purchase_order__ativ_erechnung_pdf_id
+msgid "E-Rechnung PDF Attachment"
+msgstr "E-Rechnung PDF-Anhang"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_purchase_order__ativ_erechnung_pdf_file
+msgid "E-Rechnung PDF File"
+msgstr "E-Rechnung PDF-Datei"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_purchase_order__ativ_erechnung_sent
+msgid "E-Rechnung Sent"
+msgstr "E-Rechnung versendet"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/ir_actions_report.py:0
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "E-Rechnung regenerated: the underlying data changed."
+msgstr "E-Rechnung neu erzeugt: Die zugrunde liegenden Daten haben sich geändert."
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_res_config_settings__ativ_erechnung_issuer_partner_id
+msgid "Issuer"
+msgstr "Aussteller"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,help:ativ_greenrx.field_res_config_settings__ativ_erechnung_issuer_partner_id
+msgid "Partner used as the seller/issuer party in the ZUGFeRD e-invoice."
+msgstr "Kontakt, der in der ZUGFeRD-E-Rechnung als Verkäufer/Aussteller eingetragen wird."
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,field_description:ativ_greenrx.field_res_config_settings__ativ_purchase_no_autosave
+#: model_terms:ir.ui.view,arch_db:ativ_greenrx.res_config_settings_view_form
+msgid "Purchase orders: explicit save only"
+msgstr "Gutschriften: nur explizites Speichern"
+
+#. module: ativ_greenrx
+#. odoo-javascript
+#: code:addons/ativ_greenrx/static/src/purchase_order_no_autosave.js:0
+msgid "Save"
+msgstr "Speichern"
+
+#. module: ativ_greenrx
+#: model:ir.model.fields,help:ativ_greenrx.field_purchase_order__ativ_erechnung_sent
+msgid "Set once the hybrid ZUGFeRD PDF has been sent out; its data is then frozen."
+msgstr "Wird gesetzt, sobald das ZUGFeRD-PDF versendet wurde; die Daten sind danach eingefroren."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/tools/facturx_builder.py:0
+msgid "The e-Rechnung of %(name)s cannot be built: the order carries no line other than sections and notes."
+msgstr "Die E-Rechnung zu %(name)s kann nicht erstellt werden: Die Gutschrift enthält außer Abschnitten und Notizen keine Positionen."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/ir_actions_report.py:0
+msgid "The e-Rechnung of %(name)s could not be built: its PDF cannot be converted to PDF/A-3 (%(error)s)."
+msgstr "Die E-Rechnung zu %(name)s konnte nicht erstellt werden: Das PDF lässt sich nicht nach PDF/A-3 umwandeln (%(error)s)."
+
+#. module: ativ_greenrx
+#. odoo-javascript
+#: code:addons/ativ_greenrx/static/src/purchase_order_no_autosave.js:0
+msgid "This purchase order has changes that are not saved yet."
+msgstr "Diese Gutschrift enthält noch nicht gespeicherte Änderungen."
+
+#. module: ativ_greenrx
+#. odoo-javascript
+#: code:addons/ativ_greenrx/static/src/purchase_order_no_autosave.js:0
+msgid "Unsaved changes"
+msgstr "Ungespeicherte Änderungen"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "VAT id"
+msgstr "USt-IdNr."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "ativ_erechnung_sent and ativ_erechnung_pdf_file are managed by the e-Rechnung feature and cannot be set directly."
+msgstr "ativ_erechnung_sent und ativ_erechnung_pdf_file werden von der E-Rechnungs-Funktion verwaltet und können nicht direkt gesetzt werden."
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "city"
+msgstr "Ort"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "company registry number"
+msgstr "Handelsregisternummer"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "country"
+msgstr "Land"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "email address"
+msgstr "E-Mail-Adresse"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "name"
+msgstr "Name"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "no e-invoice issuer contact configured (Settings → ATIV)"
+msgstr "kein Aussteller-Kontakt für die E-Rechnung hinterlegt (Einstellungen → ATIV)"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "phone number"
+msgstr "Telefonnummer"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "street"
+msgstr "Straße"
+
+#. module: ativ_greenrx
+#. odoo-python
+#: code:addons/ativ_greenrx/models/purchase_order.py:0
+msgid "zip code"
+msgstr "Postleitzahl"

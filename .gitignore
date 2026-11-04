@@ -1,0 +1,8 @@
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS cruft
+.DS_Store
